@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package tarealab02;
 
 /**
  *
@@ -14,7 +15,7 @@ public class Product {
     private String Type;
     private int Price;
     private int Quantity;
-    
+
     //Constructor sin argumentos
     public Product() {
     }
@@ -61,5 +62,4 @@ public class Product {
     public void setQuantity(int quantity) {
         this.Quantity = quantity;
     }
-
 }
